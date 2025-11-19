@@ -13,7 +13,7 @@ tx1.signTransaction(myKey);
 myBlockChain.addTransaction(tx1);
 
 
-myBlockChain.createTransaction(new Transaction('address1', 'address2', 100));
+// myBlockChain.createTransaction(new Transaction('address1', 'address2', 100));
 // myBlockChain.createTransaction(new Transaction('address1', 'address2', 50));
 console.log("\n...début de minage déclenché...\n");
 myBlockChain.minePendingTransactions(myWalletAddress);
